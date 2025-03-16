@@ -1,0 +1,56 @@
+
+  /* Footer */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer ul {
+    padding-left: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer ul li a:hover {
+    color: #007bff;
+  }
+  
+  .social-icons a {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #0056b3;
+  }
+  
+  .startup-logo {
+    max-width: 150px;
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .navbar.ipo-card .upcoming-ipo-section .footer {
+      text-align: center;
+    }
+  
+    .footer .col-6 {
+      margin-bottom: 20px;
+    }
+  }

@@ -1,0 +1,116 @@
+/* Dashboard.css */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: #f8f9fa;
+  min-height: 100vh;
+  border-right: 1px solid #ccc;
+}
+
+.nav-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.nav-item.active {
+  background: #ddd;
+  font-weight: 400;
+}
+
+.nav-item:hover {
+  background: #e0e0e0;
+  color: #5A6ACF;
+}
+
+.menu-title {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 11px;
+  letter-spacing: 1px;
+  
+}
+
+.content {
+  flex-grow: 1;
+  background: #fff;
+}
+
+.search-bar .brand {
+  width:625px;
+  height:32px;
+  position: relative;
+}
+
+.search-bar input {
+  padding-left: 30px;
+}
+
+.fa-brands {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1.5px;
+  color: #627BB7;
+}
+
+.user-profile {
+  width: 218px;
+  height:32px;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 8px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  background: #ffeed8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #555;
+}
+
+.username {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.notification-icon {
+  font-size: 16px;
+  color: #888;
+}
+
+.notification-dot {
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  position: relative;
+  top: -10px;
+  right: 8px;
+}
+
+.header-container {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.nav-menu-divider {
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}

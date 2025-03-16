@@ -1,0 +1,56 @@
+.container {
+    max-width: 1100px;
+  }
+  
+  h3 {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  
+  .title-highlight {
+    color: #2d9cdb;
+  }
+  
+  .broker-card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .broker-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .broker-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  
+  .broker-name {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .broker-rating {
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .broker-features {
+    margin: 8px 0;
+  }
+  
+  .feature-badge {
+    background: #2d9cdb;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+  }
+  
+  .broker-info {
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,38 @@
+/* Signup.css */
+
+.container {
+    height: 100vh;
+  }
+  
+  .signup-box {
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+  }
+  
+  h2 .logo {
+    font-weight: bold;
+    color: #6a0dad;
+  }
+  
+  .btn-primary {
+    background-color: #6a0dad;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #580b8e;
+  }
+  
+  .btn-light {
+    border: 1px solid #ccc;
+  }
+  
+  a {
+    color: #6a0dad;
+  }
+  
+  a:hover {
+    color: #580b8e;
+  }
+  

@@ -1,0 +1,109 @@
+/* General Navbar Styling */
+.navbar {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0%;
+  line-height: 100%;
+  width: 100%;
+  height: 125px;
+  background: #ffffff;
+  border-bottom: 1px solid #9a9a9a;
+  padding: 15px 30px;
+  box-shadow: 0px 8px 6.5px rgba(202, 202, 202, 0.25);
+}
+
+/* Logo & Brand */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-brand img {
+  width: 132px;
+  height: 118px;
+}
+
+.navbar-brand h1 {
+  font-weight: 700;
+  color: #1e1e1e;
+  font-size: 28px;
+  margin: 0;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-item {
+  font-weight: 600;
+  font-size: 15px;
+  color: #9a9a9a;
+}
+
+.navbar-nav .nav-link {
+  color: #9A9A9A;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #6c63ff !important;
+}
+
+/* Dropdown Menu */
+.nav-item.dropdown .dropdown-menu {
+  border: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item.dropdown .dropdown-item {
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+  background: rgba(108, 99, 255, 0.1);
+}
+
+/* Sign In & Sign Up Buttons */
+.signup-btn {
+  background-color: #6c63ff;
+  color: white !important;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #564ed8;
+}
+
+/* Menu Icon (for mobile view) */
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .navbar {
+      height: auto;
+      padding: 10px 20px;
+  }
+
+  .navbar-brand img {
+      width: 100px;
+      height: 90px;
+  }
+
+  .navbar-brand h1 {
+      font-size: 24px;
+  }
+
+  .signup-btn {
+      padding: 6px 12px;
+      font-size: 14px;
+  }
+
+  .menu-icon {
+      font-size: 22px;
+  }
+}
