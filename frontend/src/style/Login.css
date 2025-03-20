@@ -1,37 +1,89 @@
-/* Login.css */
-
+/* Center the login card */
 .container {
-  height: 100vh;
+  background-color: #111;
 }
 
+/* Login Box */
 .login-box {
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
   background: #fff;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-h2 .logo {
-  font-weight: bold;
-  color: #6a0dad;
+.title-box {
+  margin-bottom: 25px;
+}
+/* Logo */
+.logo {
+  width: 40px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
-.btn-primary {
-  background-color: #6a0dad;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: #580b8e;
-}
-
-.btn-light {
+/* Input field styling */
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 14px;
   border: 1px solid #ccc;
 }
 
-a {
-  color: #6a0dad;
+/* Reduce space between email & password fields */
+.mb-2 {
+  margin-bottom: 20px !important;
 }
 
-a:hover {
-  color: #580b8e;
+/* Forgot Password */
+.forgot-password {
+  font-size: 12px;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: #520f91;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px;
+  
+}
+
+.login-btn:hover {
+  background-color: #7524c1;
+}
+
+/* Google Sign-in Button */
+.google-btn {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+
+}
+
+/* reCAPTCHA Styling */
+.captcha-box {
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  border: 1px solid #d6d6d6;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.recaptcha-img {
+  height: 20px;
+}
+
+/* Create Account */
+.create-account {
+  font-size: 14px;
+  font-weight: bold;
 }
