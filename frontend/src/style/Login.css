@@ -42,17 +42,16 @@
 
 /* Login Button */
 .login-btn {
-  background-color: #520f91;
+  background-color: #4c1381;
   border: none;
   font-size: 16px;
   font-weight: bold;
-  border-radius: 8px;
-  padding: 10px;
-  
+  border-radius: 6px;
+  padding: 7px;
 }
 
 .login-btn:hover {
-  background-color: #7524c1;
+  background-color: #641fa4;
 }
 
 /* Google Sign-in Button */
@@ -62,8 +61,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 4px;
+  border-radius: 6px;
   margin-bottom: 25px;
 
 }
@@ -86,4 +85,34 @@
 .create-account {
   font-size: 14px;
   font-weight: bold;
+}
+
+.separator {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  height: 30px;
+}
+
+.separator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+.separator-text {
+  position: relative;
+  display: inline-block;
+  background: #f4f7f5; /* light background */
+  padding: 6px 10px;
+  color: #777;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }

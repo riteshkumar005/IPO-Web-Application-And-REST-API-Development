@@ -1,38 +1,89 @@
-/* Signup.css */
+.signup-box {
+  width: 400px;
+}
 
-.container {
-    height: 100vh;
-  }
-  
-  .signup-box {
-    width: 400px;
-    background: #fff;
-    border-radius: 10px;
-  }
-  
-  h2 .logo {
-    font-weight: bold;
-    color: #6a0dad;
-  }
-  
-  .btn-primary {
-    background-color: #6a0dad;
-    border: none;
-  }
-  
-  .btn-primary:hover {
-    background-color: #580b8e;
-  }
-  
-  .btn-light {
-    border: 1px solid #ccc;
-  }
-  
-  a {
-    color: #6a0dad;
-  }
-  
-  a:hover {
-    color: #580b8e;
-  }
-  
+.logome-1 {
+  width: 40px;
+  height: auto;
+ 
+}
+
+.logo {
+  font-weight: bold;
+  color: #0b0b0c;
+  font-size: 24px;
+}
+
+
+
+.form-control {
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #691bb6;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #6d13ae;
+}
+
+.btn-light {
+  border: 1px solid #fcfbfb;
+  background-color: #e3e3e3;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #6a0dad;
+}
+
+a:hover {
+  color: #580b8e;
+}
+
+.captcha-box {
+  border: 1px solid #dcdcdc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  width: fit-content;
+}
+
+.captcha-img {
+  height: 24px;
+  margin-left: 10px;
+}
+
+.separator {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  height: 30px;
+}
+
+.separator::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  z-index: 0;
+}
+
+.separator-text {
+  position: relative;
+  display: inline-block;
+  background: #f4f7f5; /* light background */
+  padding: 6px 10px;
+  color: #777;
+  font-size: 14px;
+  border-radius: 6px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}

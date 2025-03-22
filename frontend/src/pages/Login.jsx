@@ -33,14 +33,19 @@ const Login = () => {
           </div>
 
           {/* reCAPTCHA Box */}
-          <div className="captcha-box mb-3 p-2 rounded border d-flex align-items-center ">
-            <input type="checkbox" className="form-check-input me-2" id="captcha" />
-            <label className="form-check-label" htmlFor="captcha">
-              I'm not a robot
-            </label>
-            <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" className="ms-auto recaptcha-img" />
+          <div className="d-flex justify-content-center mb-3">
+            <div className="captcha-box d-flex align-items-center">
+              <input type="checkbox" id="captcha" />
+              <label htmlFor="captcha" className="ms-2 mb-0">
+                I'm not a robot
+              </label>
+              <img
+                src="https://www.gstatic.com/recaptcha/api2/logo_48.png"
+                alt="reCAPTCHA"
+                className="captcha-img"
+              />
+            </div>
           </div>
-
           {/* Keep Me Signed In */}
           <div className="mb-3 form-check">
             <input type="checkbox" className="form-check-input" id="rememberMe" />
@@ -52,13 +57,14 @@ const Login = () => {
             <button type="submit" className="btn btn-primary w-100 login-btn" >Login</button>
           </div>
 
-          {/* Divider */}
-          <div className="text-center text-muted mb-2">or sign in with</div>
+          <div className="separator">
+            <span className="separator-text">or sign up with</span> 
+          </div>
 
           {/* Google Sign-in Button */}
           <div className="mb-3">
             <button className="btn btn-light w-100 google-btn">
-              <img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="Google" className="me-2" />
+              <img src="https://img.icons8.com/color/32/000000/google-logo.png" alt="Google" className="me-2" />
               Continue with Google
             </button>
           </div>
