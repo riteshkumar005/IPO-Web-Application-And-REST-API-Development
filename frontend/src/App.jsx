@@ -13,6 +13,7 @@ import UpcomingIPODashboard from './pages/UpcomingIPODashboard';
 import UpcomingIPOForm from './pages/UpcomingIPOForm';
 import StockInvestors from './pages/StockInvestors';
 import TradingPlatforms from './pages/TradingPlatforms';
+import Enroll from './pages/Enroll';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   return (
     <>
       
-      <Login/>
+      <Navbar/>
       
       
     </>
