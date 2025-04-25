@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/ForgotPassword.css"; // Custom CSS
+import "../style/ForgotPassword.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../assets/logo.png";
 
@@ -7,14 +7,14 @@ const ForgotPassword = () => {
   return (
     <div className="forgot-container">
       <div className="forgot-box p-4">
-        <h2 className="text-center mb-3 d-flex align-items-center justify-content-center">
-            <img src={logo} alt="Bluestock Logo" className="logo me-2"/>
-            <span className = "title-box" style={{ color: "black", fontWeight: "bold", fontSize:28 }}>BLUESTOCK</span>
-        </h2>
-        
-        <h4 className="fw-bold mb-2">Forgot Password?</h4>
-        <p className="text-muted mb-4" style={{fontSize:17, textAlign:"center", padding: 10}}>
-          Enter your email address to get the password reset link.
+        <div className="text-center mb-4">
+          <img src={logo} alt="Bluestock Logo" className="logo mb-2" />
+          <h2 className="brand-name">BLUESTOCK</h2>
+        </div>
+
+        <h4 className="fw-bold mb-3 text-center">Forgot Your Password?</h4>
+        <p className="text-muted mb-4 text-center instruction-text">
+          No worries! Enter your email and we’ll send you a reset link.
         </p>
 
         <form>
@@ -23,18 +23,20 @@ const ForgotPassword = () => {
             <input
               type="email"
               className="form-control shadow-sm"
-              placeholder="hello@bluestock.in"
+              placeholder="you@example.com"
               required
             />
           </div>
           <button type="submit" className="btn btn-purple w-100 mb-3">
-            Password Reset
+            Send Reset Link
           </button>
         </form>
 
-        <a href="#" className="back-link">
-          Back to login
-        </a>
+        <div className="text-center">
+          <a href="#" className="back-link">
+            &larr; Back to Login
+          </a>
+        </div>
       </div>
     </div>
   );
